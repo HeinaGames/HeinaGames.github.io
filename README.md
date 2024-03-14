@@ -1,10 +1,10 @@
-# FunGames-gg
+# HeinaGames
 
-FunGames is a Game library for dealing with boredom.
+HeinaGames is a Game library for dealing with boredom.
 
 ## Installation
 
-No installation need. Open Source project is on [GitHub](https://github.com/FunGames-gg/fungames-gg.github.io). Please credit me for my code.
+No installation need. Open Source project is on [GitHub](https://github.com/HeinaGames/HeinaGames.github.io). Please credit me for my code.
 
 
 
@@ -17,4 +17,4 @@ Please make sure to double check before reporting an issue.
 
 ## License
 
-FunGames-gg ™
+HeinaGames
