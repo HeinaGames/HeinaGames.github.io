@@ -17,6 +17,10 @@
             border: none;
             cursor: pointer;
             transition: transform 0.3s, filter 0.3s;
+            color: #ffffff;
+            font-size: 18px;
+            text-decoration: none;
+            margin-right: 20px;
         }
 
         .btn:hover {
@@ -34,6 +38,31 @@
         .github-btn:hover {
             transform: translateY(-5px);
             filter: brightness(110%);
+        }
+
+        .game-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .game {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .game img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .game p {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -59,7 +88,20 @@
     </section>
 
     <section class="game-list">
-        <!-- Game entries go here -->
+        <div class="game">
+            <img src="game1.jpg" alt="Game 1">
+            <p>Game 1</p>
+        </div>
+        <div class="game">
+            <img src="game2.jpg" alt="Game 2">
+            <p>Game 2</p>
+        </div>
+        <!-- Add more game entries here -->
+        <!-- Ensure you have up to 10 game entries -->
+        <div class="game">
+            <img src="game10.jpg" alt="Game 10">
+            <p>Game 10</p>
+        </div>
     </section>
 
     <footer>
