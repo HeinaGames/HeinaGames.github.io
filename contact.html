@@ -23,7 +23,7 @@
 
     <section class="contact-form">
         <h2>Contact Us</h2>
-        <form action="#" method="POST">
+        <form action="contact.php" method="POST">
             <div class="form-group">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -38,6 +38,7 @@
             </div>
             <button type="submit" class="btn">Send Message</button>
         </form>
+        <?php include('contact.php'); ?>
     </section>
 
     <footer>
